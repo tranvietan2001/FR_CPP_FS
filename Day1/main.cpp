@@ -17,6 +17,7 @@ int main(int argc, char const *argv[])
     cout << max(20,5) << endl; 
     printTest();
     return 0;
+    cout<<'oke';
 }
 
 // #endif
