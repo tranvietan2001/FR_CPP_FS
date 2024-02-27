@@ -10,14 +10,10 @@ int max(int a, int b){
     else return b;
 }
 
-int main(int argc, char const *argv[])
-{
-    
+int main(int argc, char const *argv[]){
     cout << TEST << endl; 
     cout << max(20,5) << endl; 
     printTest();
     return 0;
-    cout<<'oke';
 }
 
-// #endif
