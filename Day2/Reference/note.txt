@@ -1,0 +1,4 @@
+Một biến tham chiếu là một bí danh, 
+đó là tên khác cho một biến đã đang tồn tại. 
+Khi một tham chiếu được khởi tạo với một biến, 
+thì: hoặc tên biến hoặc tên tham chiếu có thể được sử dụng để tham chiếu tới biến đó.

@@ -1,0 +1,1 @@
+con trỏ là một biến có giá trị là  địa chỉ của 1 biến(...) khác
