@@ -1,0 +1,9 @@
+Namespace trong C++ là một cơ chế để nhóm các thành phần (biến, hàm, lớp, ...) lại thành một tập hợp logic.
+Nó giúp tránh xung đột tên và tạo ra một không gian tên riêng biệt để quản lý các thành phần trong chương trình.
+
+:: - toán tử phạm vi-> truy cập vapf thành phần () trong phạm v cụ thể
+
+Dùng lệnh "using namespace" để khai báo một phạm vi (namespace) vào phạm vi hiện tại. Điều này cho phép bạn 
+truy cập các thành phần của namespace đó mà không cần sử dụng toán tử phạm vi "::".
+Dùng lệnh "using" để khai báo một thành phần cụ thể từ một phạm vi vào phạm vi hiện tại. Điều này cho phép 
+bạn truy cập vào thành phần đó mà không cần sử dụng toán tử phạm vi "::"
