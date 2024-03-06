@@ -14,6 +14,18 @@ void printInfo(string name, int age = 0, string address = "Unknow"){
     cout << "Agr: " << age<< endl;
     cout << "Address: " <<address << endl;
 }
+
+// int  fun (int p){
+//     p = 30;
+//     return p;
+// }
+void fun(int p){
+    p = 30;
+}
+void fun1(int *p){
+    *p = 30;    
+}
+
 int main(int argc, char const *argv[]){
     mess();
     int val = max(123, 5);
@@ -26,5 +38,11 @@ int main(int argc, char const *argv[]){
     mess();
     printInfo("ManhTT01", 24, "DaNang");
     mess();
+
+    int z = 20;
+    fun(z);
+    cout<< "z: " << z << endl;
+    fun1(&z);
+    cout<< "z: " << z << endl;  
     return 0;
 }
